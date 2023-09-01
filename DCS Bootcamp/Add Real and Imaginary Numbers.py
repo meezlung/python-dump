@@ -1,7 +1,7 @@
 from typing import Self
 
 class Complex:
-    def __init__(self, real: float, imaginary: float):
+    def __init__(self, real: float, imaginary: float): 
         self.a = real
         self.b = imaginary
     
