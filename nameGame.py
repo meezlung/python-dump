@@ -1,6 +1,0 @@
-name = str(input())
-print(f'{name}, {name}, bo-b{name[1:]}')
-print(f'banana-fana fo-f{name[1:]}')
-print(f'fee-fi-mo-m{name[1:]}')
-print(f'{name}!')
-print('{}'.format(name))
