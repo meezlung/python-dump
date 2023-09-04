@@ -25,6 +25,5 @@ def countdown(x):
         keyboard.press_and_release('enter')
         time.sleep(0.3)
 
-
 #countdown(120)
 pyramid(100, 1)                                                                                           
