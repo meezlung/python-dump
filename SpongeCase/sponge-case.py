@@ -29,4 +29,5 @@ if len(sys.argv) == 2:
 else:
     print("Please enter a valid input.")
 
+# spongecase(input_word)
 spongecase_using_head_tails(input_word)
