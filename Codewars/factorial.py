@@ -4,6 +4,8 @@ def factorial(number):
         result *= i + 1
     return result
 
+# test
+
 """
 Pros of recursion:
 1. Elegant, readable
