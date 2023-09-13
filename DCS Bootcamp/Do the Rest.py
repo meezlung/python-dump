@@ -23,9 +23,6 @@ class Complex:
         return Complex(a, b)
     
     def __mul__(self, other: Self):
-        a = self.a + other.a
-        b = self.b + other.b
-
         a = (self.a * other.a)
         b = (self.a * other.b)
         c = (self.b * other.a)
@@ -33,14 +30,20 @@ class Complex:
 
         return Complex(a - d, c + d)
     
-    def __div__(self, other: Self):
-        a = self.a / other.a
-        b = self.b / other.b
+    def __truediv__(self, other: Self):
+        a = self.a
+        b = self.b
+        c = other.a
+        d = other.b
 
-        return Complex(a, b)
+        real_part = (a * c + b * d) / (c ** 2 + d ** 2)
+        imag_part = (b * c - a * d) / (c ** 2 + d ** 2)
 
+        return Complex(real_part, imag_part)
+    
 z1 = Complex(1, 2)
 z2 = Complex(3, 4)
 print("Add", z1 + z2)
 print("Subtract", z1 - z2)
 print("Multiply", z1 * z2)
+print("Divide", z1 / z2)
