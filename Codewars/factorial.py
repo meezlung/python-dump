@@ -19,7 +19,7 @@ Cons of recursion:
 """
 
 
-def recursion_factorial(number): 
+def recursion_factorial(number):    
     if number == 1: return 1
     else: return number * recursion_factorial(number - 1)
 
@@ -40,7 +40,7 @@ def solve(test_cases):
     number = int(input())
     print(recursion_factorial(number))
     print(test_cases - 1)
-    solve(test_cases - 1)
+    solve(test_cases - 1)   
 
 def main():
     test_cases = int(input())
