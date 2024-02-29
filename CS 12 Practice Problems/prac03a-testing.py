@@ -18,7 +18,7 @@ assert arr1.min(0, 3) == 20
 arr2.append_left(10)
 arr2.append_right(10)
 print(arr2.m)
-assert arr2.min(-100, 100) == 10
+assert arr2.min(0, 0) == None
 assert len(arr1) == 3
 arr1.pop_left()
 assert len(arr1) == 2
