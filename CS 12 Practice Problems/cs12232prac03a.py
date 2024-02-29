@@ -1,6 +1,6 @@
 class MinReadyArray:
     def __init__(self):
-        self.m = list()
+        self.m: list[int] = list()
 
     def append_right(self, value: int) -> None:
         self.m.append(value)
@@ -18,7 +18,7 @@ class MinReadyArray:
         return len(self.m)
     
     def __getitem__(self, i: int) -> int | None:
-        return self.m[i] if (0 <= i < len(self.m) and self.m != None) else( None)
+        return self.m[i] if 0 <= i < len(self.m) and self.m else None 
     
     def min(self, i: int, j: int) -> int | None:
-        return min(self.m[i:j]) if i >= 0 and j <= len(self.m) and i < len(self.m) and j >= i else None
+        return min(self.m[max(i, 0): min(j, len(self.m))]) if max(i, 0) < min(j, len(self.m)) else None
