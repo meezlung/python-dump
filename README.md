@@ -11,3 +11,8 @@ This is some of the notes about Object-Oriented Programming (OOP) that I gathere
  - Collision.py (based on Kuya Basti's coding)
  - Integrating Collision in Pygame.py (I integrated Pygame library in Kuya Basti's Code and added two rectangles two visualize how disjoint works)
 
+## Big-O Notation
+Random python codes for testing different Big-O Notations
+
+## CS 12 Practice Problems
+Random practice problems in CS 12
