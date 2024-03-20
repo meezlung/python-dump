@@ -1,4 +1,4 @@
-from cs12232prac03a import MinReadyArray
+from prac3.cs12232prac03a import MinReadyArray
 
 class MaxReadyArray:
     def __init__(self):
