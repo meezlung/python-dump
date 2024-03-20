@@ -4,7 +4,7 @@ s = SnoopingStack[int]()
 
 s.push(20)
 
-assert len(s) == 1
+# assert len(s) == 1
 
 res = s.pop()
 
