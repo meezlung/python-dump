@@ -47,5 +47,4 @@ class SnoopingStack(Stack[T]):
     def history(self) -> list[T | None]:
         return self.operations_history
     
-    def __len__(self) -> int:
-        return len(self.stack)
+    # missing len
