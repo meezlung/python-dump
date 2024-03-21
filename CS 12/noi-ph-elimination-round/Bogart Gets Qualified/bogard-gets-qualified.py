@@ -5,5 +5,6 @@ def bogart_compute():
 
 def main():
     E, N = sys.stdin.readline().split()
+    
 
 main()
