@@ -13,6 +13,3 @@ This is some of the notes about Object-Oriented Programming (OOP) that I gathere
 
 ## Big-O Notation
 Random python codes for testing different Big-O Notations
-
-## CS 12 Practice Problems
-Random practice problems and lab exercises in CS 12
