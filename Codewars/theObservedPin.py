@@ -19,9 +19,7 @@ def get_pins(observed):
                        '9': ['6', '8', '9'], 
                        '0': ['0', '8']}
     
-
     return [''.join(each_combination) for each_combination in list(product(*[adjacent_digits[digit] for digit in observed]))]
-
 
 print(get_pins('8'))
 print(get_pins('11'))
