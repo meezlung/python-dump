@@ -13,6 +13,6 @@ if choose == "rna":
     dna = str(input("rna sequence: "))
     dnaConvRna = {'A': 'U', 'U': 'A', 'G': 'C', 'C': 'G' }
     new_dna = str()
-    for nucleotirde in dna:
+    for nucleotide in dna:
         new_dna += dnaConvRna[nucleotide]
     print(new_dna)
