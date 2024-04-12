@@ -19,17 +19,8 @@ def get_pins(observed):
                        '9': ['6', '8', '9'], 
                        '0': ['0', '8']}
     
-    permutable_digits = []
 
-    for digit in observed:
-        permutable_digits.append(adjacent_digits[digit])
-
-    answer = []
-
-    for each_combination in list(product(*permutable_digits)):
-        answer.append(''.join(each_combination))
-
-    return answer
+    return [''.join(each_combination) for each_combination in list(product(*[adjacent_digits[digit] for digit in observed]))]
 
 
 print(get_pins('8'))
