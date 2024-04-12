@@ -5,11 +5,13 @@ def checkUserInput(input):
         #convert to integer
         val = int(input)
         print(chr(val))
-    except: ValueError
+    except: 
+        raise ValueError
     try: 
         #convert to string
         val = str(input)
         print(ord(val))
-    except: ValueError
+    except: 
+        raise ValueError
 
 checkUserInput(user)
