@@ -1,9 +1,9 @@
 def char(a,b):    
-    print("chr:  ", end=""),
+    print("chr:  ", end="")
     for x in range(a,b):
         print(chr(x), end="   ")
     print("")
-    print("asc: ", end=""),
+    print("asc: ", end="")
     for y in range(a,b):
         if len(str(y)) == 2:
             print(y, end="  ")
