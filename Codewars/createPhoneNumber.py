@@ -1,3 +1,5 @@
+# type: ignore
+
 def create_phone_number(n):
     return f"({''.join(map(str, n[0:3]))}) {''.join(map(str, n[3:6]))}-{''.join(map(str, n[6:10]))}"
 
