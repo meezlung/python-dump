@@ -1,3 +1,5 @@
+# type: ignore
+
 def char(a,b):    
     print("chr:  ", end="")
     for x in range(a,b):
