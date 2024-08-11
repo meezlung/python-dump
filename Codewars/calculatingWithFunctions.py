@@ -1,3 +1,4 @@
+# type: ignore
 def zero(operation = None):
     return operation(0) if operation else 0
 
