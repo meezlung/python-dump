@@ -1,3 +1,5 @@
+# type: ignore
+
 def ip_to_int(ip_address):
     parts = ip_address.split('.')
     return int(parts[0]) * 256**3 + int(parts[1]) * 256**2 + int(parts[2]) * 256 + int(parts[3])
