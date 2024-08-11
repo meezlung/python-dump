@@ -1,3 +1,6 @@
+# type: ignore
+
+
 #myList = [1, 10, 100, 1000]
 #for i in range(0, 4):
 #    myList[i] = 2*myList[i]+i
