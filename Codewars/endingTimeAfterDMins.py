@@ -1,3 +1,5 @@
+# type: ignore
+
 time = input().split(':')
 minutes = int(input())
 new_time = []
