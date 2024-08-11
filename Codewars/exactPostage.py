@@ -1,3 +1,5 @@
+# type: ignore
+
 def postalValidate(S):
     new_S = S.replace(' ', '') # remove spaces
     if len(new_S) == 6:
