@@ -1,3 +1,5 @@
+# type: ignore
+
 import math
 def prod(L):
     # initializes the value / the placeholder
