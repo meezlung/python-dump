@@ -1,3 +1,5 @@
+# type: ignore
+
 def duplicate_count(text):
     char_count = {}
 
