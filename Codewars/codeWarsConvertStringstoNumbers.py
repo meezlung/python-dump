@@ -1,3 +1,5 @@
+# type: ignore
+
 text = "The sunset sets at twelve o' clock."
 
 def alphabet_position(text):
