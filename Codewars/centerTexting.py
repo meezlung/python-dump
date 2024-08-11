@@ -1,3 +1,4 @@
+# type: ignore
 import math
 
 width = int(input())
