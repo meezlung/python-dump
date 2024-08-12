@@ -1,3 +1,5 @@
+# type: ignore
+
 def lowerChar(char):
     order = ord(char)
     if 65 <= order <= 91:
