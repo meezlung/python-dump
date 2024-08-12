@@ -1,3 +1,5 @@
+# type: ignore
+
 def naturalNumbers(n):
     numbers = []
     for i in range(1,n+1):
