@@ -1,3 +1,5 @@
+# type: ignore
+
 def fib(n):
     
     if n <= 2:
