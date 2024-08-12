@@ -1,3 +1,5 @@
+# type: ignore
+
 def replace(list, X, Y):
     count = 0
     length = len(list)
