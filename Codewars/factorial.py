@@ -1,3 +1,5 @@
+# type: ignore
+
 def factorial(number):
     result = 1
     for i in range(number):
