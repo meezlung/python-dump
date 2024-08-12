@@ -1,3 +1,5 @@
+# type: ignore
+
 from re import X
 import keyboard
 import time
