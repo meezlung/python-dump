@@ -1,3 +1,5 @@
+# type: ignore
+
 def filter_list(l):
     filtered = []
     for i in l:
