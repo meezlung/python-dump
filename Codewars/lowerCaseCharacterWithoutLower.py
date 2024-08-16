@@ -1,3 +1,5 @@
+# type: ignore
+
 def lowerChar(char):
     empty = ""
     for o in char:
