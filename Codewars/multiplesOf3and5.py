@@ -1,3 +1,5 @@
+# type: ignore
+
 def solution(number):
     # sum = 0
 
