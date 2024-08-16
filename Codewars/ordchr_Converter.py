@@ -1,3 +1,5 @@
+# type: ignore
+
 user = (input("ord/chr: "))
 
 def checkUserInput(input):
