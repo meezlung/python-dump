@@ -1,3 +1,5 @@
+# type: ignore
+
 n = int(input())
 for y_axis in range(0, n): # y axis
     X = 0
