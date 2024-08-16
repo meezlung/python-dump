@@ -1,3 +1,5 @@
+# type: ignore
+
 def max_sequence_inefficient_bruteforce(arr):
     n = len(arr)
     negative_counter = 0
