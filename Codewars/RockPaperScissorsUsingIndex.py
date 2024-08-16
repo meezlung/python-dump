@@ -1,3 +1,5 @@
+# type: ignore
+
 def rps(p1, p2):
     l = ["rock", "paper", "scissors"]
     newP1 = l.index(p1)
