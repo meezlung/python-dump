@@ -1,3 +1,5 @@
+# type: ignore
+
 def pig_it(text):
     final_text = []
     split = text.split()
