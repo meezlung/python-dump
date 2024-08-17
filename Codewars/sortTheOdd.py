@@ -1,3 +1,5 @@
+# type: ignore
+
 def sort_array_draft(source_array):
     odd = []
     odd_index = []
