@@ -1,3 +1,5 @@
+# type: ignore
+
 def spin_words(sentence):
     new_word = []    
     for word in sentence.split(' '):
