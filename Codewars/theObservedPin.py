@@ -1,3 +1,5 @@
+# type: ignore
+
 # TODO
 # 1. Iterate through each digit
 # 2. For each digit, check all their adjacents in a hashmap
