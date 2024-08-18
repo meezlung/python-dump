@@ -1,3 +1,5 @@
+# type: ignore
+
 import math
 def hypotenuse(a, b):
     cSquared = a**2 + b**2
