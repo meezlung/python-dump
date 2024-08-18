@@ -1,3 +1,5 @@
+# type: ignore
+
 from operator import countOf
 import re
 needle = input()
