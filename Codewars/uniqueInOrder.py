@@ -1,3 +1,5 @@
+# type: ignore
+
 def unique_in_order(sequence):
     tracker = ""
     final_answer = []
